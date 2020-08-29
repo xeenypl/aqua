@@ -1,0 +1,16 @@
+{
+  "name": "aqua",
+  "version": "1.0.0",
+  "description": "simple graphics engine",
+  "main": "game.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel bulid src/index.html"
+  },
+  "author": "xeeny",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.2"
+  }
+}
