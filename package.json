@@ -4,8 +4,8 @@
   "description": "simple graphics engine",
   "main": "game.js",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel bulid src/index.html"
+    "start": "parcel src/index.html src/aqua.ts --global Aqua",
+    "build": "parcel bulid src/index.html src/aqua.ts --global Aqua"
   },
   "author": "xeeny",
   "license": "MIT",
